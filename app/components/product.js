@@ -611,7 +611,7 @@ Terima kasih! 🙏`;
                 )}
                 {searchQuery && (
                   <span className="inline-flex items-center px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">
-                    🔍 "{searchQuery}"
+                    🔍 &quot;{searchQuery}&quot;
                     <button
                       onClick={clearSearch}
                       className="ml-2 text-slate-500 hover:text-slate-700"
@@ -892,8 +892,8 @@ Terima kasih! 🙏`;
               Produk Tidak Ditemukan
             </h3>
             <p className="text-lg text-slate-600 mb-8">
-              Maaf, tidak ada produk yang sesuai dengan pencarian "{searchQuery}
-              " di kategori{" "}
+              Maaf, tidak ada produk yang sesuai dengan pencarian &quot;
+              {searchQuery}&quot; di kategori{" "}
               {categories.find((cat) => cat.id === activeFilter)?.name}.
             </p>
             <div className="space-x-4">

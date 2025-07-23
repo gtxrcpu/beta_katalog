@@ -428,7 +428,7 @@ const TestimonialsSection = () => {
             {/* Active Testimonial Content */}
             <div className="bg-gradient-to-br from-blue-50 to-orange-50 rounded-2xl p-8 lg:p-10 relative">
               <div className="absolute top-4 left-4 text-6xl text-blue-200 opacity-50">
-                "
+                &quot;
               </div>
 
               <div className="relative z-10 space-y-6">

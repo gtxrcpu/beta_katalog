@@ -159,9 +159,10 @@ const AboutUs = () => {
 
           <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
             Perusahaan manufaktur teknologi tepat guna{" "}
-            <strong>"Miniboiler"</strong> dan <strong>"biomass"</strong> bahan
-            bakar ramah lingkungan, yang fokus memenuhi kebutuhan teknologi UMKM
-            dengan efisiensi hingga <strong>70%</strong>.
+            <strong>&quot;Miniboiler&quot;</strong> dan{" "}
+            <strong>&quot;biomass&quot;</strong> bahan bakar ramah lingkungan,
+            yang fokus memenuhi kebutuhan teknologi UMKM dengan efisiensi hingga{" "}
+            <strong>70%</strong>.
           </p>
         </div>
 
